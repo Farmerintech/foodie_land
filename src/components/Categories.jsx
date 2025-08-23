@@ -9,32 +9,38 @@ export const Categories = () => {
   const categories = [
     {
       name: "Breakfast",
-      color: "#708246",
+      color: "rgba(112, 130, 70, 0.10)", // #708246
+      from: "rgba(112, 130, 70, 0.00)",
       image: Breakfast,
     },
     {
       name: "Vegan",
-      color: "#6CC63F",
+      color: "rgba(108, 198, 63, 0.10)", // #6CC63F
+      from: "rgba(108, 198, 63, 0.00)",
       image: Vegan,
     },
     {
       name: "Meat",
-      color: "#CC261B",
+      color: "rgba(204, 38, 27, 0.10)", // #CC261B
+      from: "rgba(204, 38, 27, 0.00)",
       image: Meat,
     },
     {
       name: "Desert",
-      color: "#F09E00",
+      color: "rgba(240, 158, 0, 0.10)", // #F09E00
+      from: "rgba(240, 158, 0, 0.00)",
       image: Desert,
     },
     {
       name: "Lunch",
-      color: "#000000",
+      color: "rgba(0, 0, 0, 0.05)", // black
+      from: "rgba(0, 0, 0, 0.00)",
       image: Lunch,
     },
     {
       name: "Chocolate",
-      color: "#000000",
+      color: "rgba(0, 0, 0, 0.05)", // black
+      from: "rgba(0, 0, 0, 0.00)",
       image: Chocolate,
     },
   ];
@@ -52,9 +58,9 @@ export const Categories = () => {
         {categories.map((item, index) => (
           <div
             key={index}
-            className="w-[100px] h-[120px] rounded-[12px] flex flex-col items-center justify-center text-center"
+            className="w-[100px] h-[120px] rounded-[30px] flex flex-col items-center justify-center text-center"
             style={{
-              background: `linear-gradient(0deg, ${item.color}00 0%, ${item.color} 10%)`,
+              background: `linear-gradient(180deg, ${item.from} 0%, ${item.color} 100%)`,
             }}
           >
             <img src={item.image} alt={item.name} className="w-[50px] h-[50px] mb-2" />

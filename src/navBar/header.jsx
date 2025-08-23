@@ -64,14 +64,14 @@ export default function Header() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-gray-800 flex flex-col items-center space-y-4 py-4">
+        <div className="md:hidden bg-white flex flex-col items-center space-y-4 py-4">
           {navLinks.map(link => (
             <Link
               key={link.name}
               to={link.path}
               onClick={closeMenu}
-              className={`text-lg hover:text-cyan-400 transition ${
-                pathname === link.path ? 'text-cyan-400 font-semibold' : ''
+              className={`text-lg hover:text-gray-500 transition ${
+                pathname === link.path ? 'text-purple-500 font-semibold' : ''
               }`}
             >
               {link.name}
