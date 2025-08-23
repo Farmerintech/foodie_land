@@ -53,7 +53,7 @@ export const Receipe = () =>{
                 <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor 
                     incididunt ut labore et dolore magna aliqut enim ad minim </p>
             </div>
-            <div className="flex flex-wrap gap-10 justify-between items-center">
+            <div className="flex flex-wrap gap-10 justify-center md:justify-between items-center">
                 {
                     Receipes.map(item=>(
                         <div 
