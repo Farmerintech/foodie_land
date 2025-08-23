@@ -66,9 +66,9 @@ export const Receipe = () =>{
                            background: "linear-gradient(180deg, rgba(231, 249, 253, 0.00) 0%, #E7F9FD 100%)",
                          }}
                         className="w-[170px] md:w-[250px] h-full rounded-2xl md:rounded-[30px] px-3 md:px-3 py-5">
-                            <div className="">
+                            <div className="relative">
                                 <img src={item.image} className="w-[150px] md:w-[350px] rounded-3xl h-[158px]"/>
-                                <div className="absolute top-4 left-5"><FaHeart/></div>
+                                <div className="absolute top-4 right-6 bg-white w-6 flex items-center justify-center h-6 rounded-full text-gray-200 hover:text-red-500"><FaHeart size={10}/></div>
                             </div>
                             <p className="font-[600] mb-2">{item.desc}</p>
                             <div className="md:flex gap-5">
