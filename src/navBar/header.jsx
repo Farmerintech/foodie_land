@@ -64,7 +64,7 @@ export default function Header() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white flex flex-col items-center space-y-4 py-4">
+        <div className="md:hidden h-full w-full z-50 fixed top-0 left-0 bg-white flex flex-col items-left space-y-4 py-4 px-10 mt-20">
           {navLinks.map(link => (
             <Link
               key={link.name}
