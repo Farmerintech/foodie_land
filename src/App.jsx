@@ -6,6 +6,7 @@ import './index.css';
 import Blog from './pages/Blog';
 import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
+import { Footer } from './navBar/footer';
 function App() {
   return (
     <BrowserRouter>
@@ -18,6 +19,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
 
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
