@@ -17,6 +17,8 @@ export const Footer = ()=>{
                         <Link to='/receipes'>Receipes</Link>
                         <Link to='/contact'>Contact</Link >
                         <Link to='/abouts-us'>Abouts Us</Link >
+                                                <Link to='/blog'>Blog </Link >
+
                     </ul>
                 </nav>
             </aside>
