@@ -23,7 +23,7 @@ export const Footer = ()=>{
         </footer>
             <section className='flex  md:flex-row justify-between items-center px-[16px] py-4 border-t border-gray-100'>
                 <p>
-                    © 2025 farmerintech. Powered by Webflow
+                    © 2025 farmerintech. 
                 </p>
                 <div>
                             <button className="">
