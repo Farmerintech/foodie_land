@@ -19,7 +19,7 @@ export const Footer = () => {
             minim{" "}
           </p>
         </div>
-        <div className="bg-white py-[12px] gap-5 md:px-[16px] px-[8px] flex justify-between rounded-[16px]  w-full md:w-[480px] lg:w-[500px] md:mx-auto my-10">
+        <div className="bg-white py-[12px] md:gap-5 md:px-[16px] px-[8px] flex justify-between rounded-[16px]  w-full md:w-[480px] lg:w-[500px] md:mx-auto my-10">
           <input
             type="text"
             className="outline-none border-none bg-none"
