@@ -38,7 +38,7 @@ export const Instagram = ()=>{
           className="py-[8px] md:px-[64px] px-[16px]"      
       >
         <aside className="flex flex-col items-center text-center justify-center ">
-          <p className="text-[32px] font-[600] text-center">
+          <p className="md:text-[48px] text-3xl font-[600] text-center">
             Check out @foodieland on Instagram
           </p>
           <p className="p">
