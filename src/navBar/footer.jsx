@@ -5,7 +5,7 @@ export const Footer = ()=>{
     return(
         <>
         <footer className="flex justify-between px-[16px] py-8 flex-col md:flex-row border-t border-gray-100">
-            <aside className='flex-1'>
+            <aside className='flex-1 mb-4'>
                 <p>FoodieLand</p>
                 <p></p>
             </aside>
