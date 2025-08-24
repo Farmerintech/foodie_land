@@ -8,7 +8,6 @@ import Receipe6 from "../assets/receip6.svg";
 import Receipe7 from "../assets/receip7.svg";
 import Receipe8 from "../assets/receip8.svg";
 import Receipe9 from "../assets/receip9.svg";
-import { MenuItems } from "@headlessui/react";
 import { FaSpoon } from "react-icons/fa6";
 
 export const Receipe = () =>{
