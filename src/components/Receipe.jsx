@@ -64,14 +64,14 @@ export const Receipe = () =>{
                         style={{
                            background: "linear-gradient(180deg, rgba(231, 249, 253, 0.00) 0%, #E7F9FD 100%)",
                          }}
-                        className="w-[300px] md:w-[250px] h-full rounded-2xl md:rounded-[30px] px-3 md:px-3 py-5">
+                        className="w-[300px] md:w-[250px] h-full rounded-2xl md:rounded-[30px] px-3 md:px-3 py-5 flex flex-col gap-5">
                             <div className="relative">
                                 <img src={item.image} className="w-[280px] h-auto md:w-[350px] rounded-[24px] md:h-[158px]"/>
                                 <div className="absolute top-4 right-6 bg-white w-6 flex items-center justify-center h-6 rounded-full text-gray-200 hover:text-red-500"><FaHeart size={10}/></div>
                             </div>
                             <p className="font-[600] mb-2">{item.desc}</p>
                             <div className="flex gap-5">
-                                <p className=" gap-2 items-center md:justify-center">
+                                <p className="flex gap-2 items-center md:justify-center">
                                     <span><FaClock size={10}/></span> 
                                     <span>30 Minutes</span>
                                 </p>
