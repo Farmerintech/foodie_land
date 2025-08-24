@@ -5,15 +5,15 @@ import { Link, useLocation } from 'react-router-dom';
 export const Footer = ()=>{
     return(
         <>
-        <footer className="flex justify-between px-[16px] py-8 flex-col md:flex-row border-t border-gray-100">
+        <footer className="flex justify-between px-[16px] py-8 flex-col md:flex-row ">
             <aside className='flex-1 mb-4'>
                 <p>FoodieLand</p>
                 <p></p>
             </aside>
             <aside className=" flex-1">
                 <nav>
-                    <ul className="flex gap-8 justify-between flex-col md:flex-row">
-                        <Link to='/'>Home</Link>
+                    <ul className="flex gap-8 justify-end flex-col md:flex-row">
+                        <Link to='/' className='hover:text-cyan-500'>Home</Link>
                         <Link to='/receipes'>Receipes</Link>
                         <Link to='/contact'>Contact</Link >
                         <Link to='/about-us'>Abouts Us</Link >
@@ -24,7 +24,7 @@ export const Footer = ()=>{
             </aside>
 
         </footer>
-            <section className='flex  md:flex-row justify-between items-center px-[16px] py-4 border-t border-gray-100'>
+            <section className='flex  md:flex-row justify-end gap-10 items-center px-[16px] py-4 border-t border-gray-100'>
                 <p>
                     © 2025 farmerintech. 
                 </p>

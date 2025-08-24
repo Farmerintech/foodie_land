@@ -1,4 +1,5 @@
 import { Categories } from "../components/Categories";
+import { Chef } from "../components/Chef";
 import { Hero } from "../components/Hero";
 import { Receipe } from "../components/Receipe";
 
@@ -8,6 +9,7 @@ return(
         <Hero/>    
         <Categories/>
         <Receipe/>
+        <Chef/>
     </section>
 )
 }
