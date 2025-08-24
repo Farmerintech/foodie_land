@@ -70,8 +70,8 @@ export const Receipe = () =>{
                                 <div className="absolute top-4 right-6 bg-white w-6 flex items-center justify-center h-6 rounded-full text-gray-200 hover:text-red-500"><FaHeart size={10}/></div>
                             </div>
                             <p className="font-[600] mb-2">{item.desc}</p>
-                            <div className="md:flex gap-5">
-                                <p className="flex gap-2 items-center md:justify-center">
+                            <div className="flex gap-5">
+                                <p className=" gap-2 items-center md:justify-center">
                                     <span><FaClock size={10}/></span> 
                                     <span>30 Minutes</span>
                                 </p>
