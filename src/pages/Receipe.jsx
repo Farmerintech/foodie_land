@@ -4,5 +4,5 @@ export default function Receipe (){
         <p className="font-[600] text-[48px]">Receipes Page</p>
         <p className="">This page is Under Construction, </p>
         <p className="">Check Back later!!</p>
-        </div>    )
+  </div>    )
 }
