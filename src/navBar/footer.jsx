@@ -4,14 +4,14 @@ import { FaInstagram, FaTwitter } from 'react-icons/fa6';
 export const Footer = ()=>{
     return(
         <>
-        <footer className="flex justify-between px-[16px] py-8 ">
+        <footer className="flex justify-between px-[16px] py-8 flex-col md:flex-row border-t border-gray-100">
             <aside className='flex-1'>
                 <p>FoodieLand</p>
                 <p></p>
             </aside>
             <aside className=" flex-1">
                 <nav>
-                    <ul className="flex gap-8 justify-between">
+                    <ul className="flex gap-8 justify-between flex-col md:flex-row">
                         <li>Home</li>
                         <li>Receipes</li>
                         <li>Contact</li>
