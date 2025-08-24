@@ -57,7 +57,7 @@ export const Receipe = () =>{
                 <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor 
                     incididunt ut labore et dolore magna aliqut enim ad minim </p>
             </div>
-            <div className="flex flex-wrap gap-2 md:gap-10 justify-between items-center">
+            <div className="flex flex-wrap gap-2 md:gap-10 justify-center items-center">
                 {
                     Receipes.map(item=>(
                         <div 
@@ -66,7 +66,7 @@ export const Receipe = () =>{
                          }}
                         className="w-[300px] md:w-[250px] h-full rounded-2xl md:rounded-[30px] px-3 md:px-3 py-5">
                             <div className="relative">
-                                <img src={item.image} className="w-[280px] md:w-[350px] rounded-3xl h-[158px]"/>
+                                <img src={item.image} className="w-[280px] h-auto md:w-[350px] rounded-[24px] md:h-[158px]"/>
                                 <div className="absolute top-4 right-6 bg-white w-6 flex items-center justify-center h-6 rounded-full text-gray-200 hover:text-red-500"><FaHeart size={10}/></div>
                             </div>
                             <p className="font-[600] mb-2">{item.desc}</p>
