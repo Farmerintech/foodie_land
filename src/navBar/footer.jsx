@@ -1,5 +1,6 @@
 import { FaBars, FaFacebook, FaTimes } from 'react-icons/fa';
 import { FaInstagram, FaTwitter } from 'react-icons/fa6';
+import { Link, useLocation } from 'react-router-dom';
 
 export const Footer = ()=>{
     return(
@@ -12,10 +13,10 @@ export const Footer = ()=>{
             <aside className=" flex-1">
                 <nav>
                     <ul className="flex gap-8 justify-between flex-col md:flex-row">
-                        <li>Home</li>
-                        <li>Receipes</li>
-                        <li>Contact</li>
-                        <li>Abouts Us</li>
+                        <Link to='/'>Home</Link>
+                        <Link to='/receips'>Receipes</Link>
+                        <Link to='/contact'>Contact</Link >
+                        <Link to='/abouts-us'>Abouts Us</Link >
                     </ul>
                 </nav>
             </aside>
