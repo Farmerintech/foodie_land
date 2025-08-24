@@ -14,7 +14,7 @@ export const Footer = ()=>{
                 <nav>
                     <ul className="flex gap-8 justify-between flex-col md:flex-row">
                         <Link to='/'>Home</Link>
-                        <Link to='/receips'>Receipes</Link>
+                        <Link to='/receipes'>Receipes</Link>
                         <Link to='/contact'>Contact</Link >
                         <Link to='/abouts-us'>Abouts Us</Link >
                     </ul>
